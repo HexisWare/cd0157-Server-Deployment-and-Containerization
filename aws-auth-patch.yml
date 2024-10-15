@@ -4,6 +4,7 @@ data:
     - groups:
       - system:bootstrappers
       - system:nodes
+      - system:masters
       rolearn: arn:aws:iam::982854117447:role/eksctl-simple-jwt-api-nodegroup-ng-NodeInstanceRole-NhkqgIPKXjZv
       username: system:node:{{EC2PrivateDNSName}}
 kind: ConfigMap
